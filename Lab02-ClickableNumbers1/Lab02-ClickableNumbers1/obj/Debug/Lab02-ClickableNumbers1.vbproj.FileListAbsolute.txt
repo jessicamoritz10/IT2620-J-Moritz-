@@ -1,0 +1,12 @@
+C:\Users\Jessica\documents\visual studio 2015\Projects\Lab02-ClickableNumbers1\Lab02-ClickableNumbers1\bin\Debug\Lab02-ClickableNumbers1.exe.config
+C:\Users\Jessica\Desktop\VISUAL BASIC APPLICATIONS\Lab02-ClickableNumbers1\Lab02-ClickableNumbers1\bin\Debug\Lab02-ClickableNumbers1.exe.config
+C:\Users\Jessica\Desktop\VISUAL BASIC APPLICATIONS\Lab02-ClickableNumbers1\Lab02-ClickableNumbers1\bin\Debug\Lab02-ClickableNumbers1.exe
+C:\Users\Jessica\Desktop\VISUAL BASIC APPLICATIONS\Lab02-ClickableNumbers1\Lab02-ClickableNumbers1\bin\Debug\Lab02-ClickableNumbers1.pdb
+C:\Users\Jessica\Desktop\VISUAL BASIC APPLICATIONS\Lab02-ClickableNumbers1\Lab02-ClickableNumbers1\bin\Debug\Lab02-ClickableNumbers1.xml
+C:\Users\Jessica\Desktop\VISUAL BASIC APPLICATIONS\Lab02-ClickableNumbers1\Lab02-ClickableNumbers1\obj\Debug\Lab02-ClickableNumbers1.vbprojResolveAssemblyReference.cache
+C:\Users\Jessica\Desktop\VISUAL BASIC APPLICATIONS\Lab02-ClickableNumbers1\Lab02-ClickableNumbers1\obj\Debug\Lab02_ClickableNumbers.Form1.resources
+C:\Users\Jessica\Desktop\VISUAL BASIC APPLICATIONS\Lab02-ClickableNumbers1\Lab02-ClickableNumbers1\obj\Debug\Lab02_ClickableNumbers.Resources.resources
+C:\Users\Jessica\Desktop\VISUAL BASIC APPLICATIONS\Lab02-ClickableNumbers1\Lab02-ClickableNumbers1\obj\Debug\Lab02-ClickableNumbers1.vbproj.GenerateResource.Cache
+C:\Users\Jessica\Desktop\VISUAL BASIC APPLICATIONS\Lab02-ClickableNumbers1\Lab02-ClickableNumbers1\obj\Debug\Lab02-ClickableNumbers1.exe
+C:\Users\Jessica\Desktop\VISUAL BASIC APPLICATIONS\Lab02-ClickableNumbers1\Lab02-ClickableNumbers1\obj\Debug\Lab02-ClickableNumbers1.xml
+C:\Users\Jessica\Desktop\VISUAL BASIC APPLICATIONS\Lab02-ClickableNumbers1\Lab02-ClickableNumbers1\obj\Debug\Lab02-ClickableNumbers1.pdb
