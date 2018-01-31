@@ -1,0 +1,11 @@
+C:\Users\Jessica\AppData\Local\Temporary Projects\Lab02-JokeandPunch\bin\Debug\Lab02-JokeandPunch.exe.config
+C:\Users\Jessica\AppData\Local\Temporary Projects\Lab02-JokeandPunch\bin\Debug\Lab02-JokeandPunch.exe
+C:\Users\Jessica\AppData\Local\Temporary Projects\Lab02-JokeandPunch\bin\Debug\Lab02-JokeandPunch.pdb
+C:\Users\Jessica\AppData\Local\Temporary Projects\Lab02-JokeandPunch\bin\Debug\Lab02-JokeandPunch.xml
+C:\Users\Jessica\AppData\Local\Temporary Projects\Lab02-JokeandPunch\obj\Debug\Lab02-JokeandPunch.vbprojResolveAssemblyReference.cache
+C:\Users\Jessica\AppData\Local\Temporary Projects\Lab02-JokeandPunch\obj\Debug\Lab02_JokeandPunch.Form1.resources
+C:\Users\Jessica\AppData\Local\Temporary Projects\Lab02-JokeandPunch\obj\Debug\Lab02_JokeandPunch.Resources.resources
+C:\Users\Jessica\AppData\Local\Temporary Projects\Lab02-JokeandPunch\obj\Debug\Lab02-JokeandPunch.vbproj.GenerateResource.Cache
+C:\Users\Jessica\AppData\Local\Temporary Projects\Lab02-JokeandPunch\obj\Debug\Lab02-JokeandPunch.exe
+C:\Users\Jessica\AppData\Local\Temporary Projects\Lab02-JokeandPunch\obj\Debug\Lab02-JokeandPunch.xml
+C:\Users\Jessica\AppData\Local\Temporary Projects\Lab02-JokeandPunch\obj\Debug\Lab02-JokeandPunch.pdb
