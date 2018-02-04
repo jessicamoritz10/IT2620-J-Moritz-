@@ -28,39 +28,39 @@ Partial Class Form1
         Me.btnCalifornia = New System.Windows.Forms.Button()
         Me.btnArizona = New System.Windows.Forms.Button()
         Me.btnNewMexico = New System.Windows.Forms.Button()
-        Me.Label1 = New System.Windows.Forms.Label()
+        Me.lblState = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'btnOhio
         '
-        Me.btnOhio.Location = New System.Drawing.Point(105, 64)
+        Me.btnOhio.Location = New System.Drawing.Point(75, 66)
         Me.btnOhio.Name = "btnOhio"
-        Me.btnOhio.Size = New System.Drawing.Size(75, 23)
+        Me.btnOhio.Size = New System.Drawing.Size(100, 35)
         Me.btnOhio.TabIndex = 0
         Me.btnOhio.Text = "Ohio"
         Me.btnOhio.UseVisualStyleBackColor = True
         '
         'btnColorado
         '
-        Me.btnColorado.Location = New System.Drawing.Point(105, 102)
+        Me.btnColorado.Location = New System.Drawing.Point(75, 121)
         Me.btnColorado.Name = "btnColorado"
-        Me.btnColorado.Size = New System.Drawing.Size(75, 23)
+        Me.btnColorado.Size = New System.Drawing.Size(100, 35)
         Me.btnColorado.TabIndex = 1
         Me.btnColorado.Text = "Colorado"
         Me.btnColorado.UseVisualStyleBackColor = True
         '
         'btnUtah
         '
-        Me.btnUtah.Location = New System.Drawing.Point(105, 142)
+        Me.btnUtah.Location = New System.Drawing.Point(75, 174)
         Me.btnUtah.Name = "btnUtah"
-        Me.btnUtah.Size = New System.Drawing.Size(75, 23)
+        Me.btnUtah.Size = New System.Drawing.Size(100, 35)
         Me.btnUtah.TabIndex = 2
         Me.btnUtah.Text = "Utah"
         Me.btnUtah.UseVisualStyleBackColor = True
         '
         'btnCalifornia
         '
-        Me.btnCalifornia.Location = New System.Drawing.Point(105, 185)
+        Me.btnCalifornia.Location = New System.Drawing.Point(75, 226)
         Me.btnCalifornia.Name = "btnCalifornia"
         Me.btnCalifornia.Size = New System.Drawing.Size(100, 35)
         Me.btnCalifornia.TabIndex = 3
@@ -69,7 +69,7 @@ Partial Class Form1
         '
         'btnArizona
         '
-        Me.btnArizona.Location = New System.Drawing.Point(105, 229)
+        Me.btnArizona.Location = New System.Drawing.Point(75, 277)
         Me.btnArizona.Name = "btnArizona"
         Me.btnArizona.Size = New System.Drawing.Size(100, 35)
         Me.btnArizona.TabIndex = 4
@@ -78,28 +78,33 @@ Partial Class Form1
         '
         'btnNewMexico
         '
-        Me.btnNewMexico.Location = New System.Drawing.Point(93, 269)
+        Me.btnNewMexico.Location = New System.Drawing.Point(75, 330)
         Me.btnNewMexico.Name = "btnNewMexico"
         Me.btnNewMexico.Size = New System.Drawing.Size(100, 35)
         Me.btnNewMexico.TabIndex = 5
         Me.btnNewMexico.Text = "New Mexico"
         Me.btnNewMexico.UseVisualStyleBackColor = True
         '
-        'Label1
+        'lblState
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(121, 22)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(39, 13)
-        Me.Label1.TabIndex = 6
-        Me.Label1.Text = "Label1"
+        Me.lblState.AutoSize = True
+        Me.lblState.BackColor = System.Drawing.SystemColors.ControlLightLight
+        Me.lblState.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblState.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.lblState.ImageAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.lblState.Location = New System.Drawing.Point(83, 23)
+        Me.lblState.MinimumSize = New System.Drawing.Size(80, 30)
+        Me.lblState.Name = "lblState"
+        Me.lblState.Size = New System.Drawing.Size(80, 30)
+        Me.lblState.TabIndex = 6
+        Me.lblState.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(286, 316)
-        Me.Controls.Add(Me.Label1)
+        Me.ClientSize = New System.Drawing.Size(244, 377)
+        Me.Controls.Add(Me.lblState)
         Me.Controls.Add(Me.btnNewMexico)
         Me.Controls.Add(Me.btnArizona)
         Me.Controls.Add(Me.btnCalifornia)
@@ -107,7 +112,7 @@ Partial Class Form1
         Me.Controls.Add(Me.btnColorado)
         Me.Controls.Add(Me.btnOhio)
         Me.Name = "Form1"
-        Me.Text = "Form1"
+        Me.Text = "State Abbreviations"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -119,5 +124,5 @@ Partial Class Form1
     Friend WithEvents btnCalifornia As Button
     Friend WithEvents btnArizona As Button
     Friend WithEvents btnNewMexico As Button
-    Friend WithEvents Label1 As Label
+    Friend WithEvents lblState As Label
 End Class
