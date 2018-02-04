@@ -1,2 +1,12 @@
 C:\Users\Jessica\AppData\Local\Temporary Projects\Lab03-States\bin\Debug\Lab03-States.exe.config
 C:\Users\Jessica\Source\Repos\IT2620-J-Moritz-\Lab03-States\Lab03-States\bin\Debug\Lab03-States.exe.config
+C:\Users\Jessica\Source\Repos\IT2620-J-Moritz-\Lab03-States\Lab03-States\bin\Debug\Lab03-States.exe
+C:\Users\Jessica\Source\Repos\IT2620-J-Moritz-\Lab03-States\Lab03-States\bin\Debug\Lab03-States.pdb
+C:\Users\Jessica\Source\Repos\IT2620-J-Moritz-\Lab03-States\Lab03-States\bin\Debug\Lab03-States.xml
+C:\Users\Jessica\Source\Repos\IT2620-J-Moritz-\Lab03-States\Lab03-States\obj\Debug\Lab03-States.vbprojResolveAssemblyReference.cache
+C:\Users\Jessica\Source\Repos\IT2620-J-Moritz-\Lab03-States\Lab03-States\obj\Debug\Lab03_States.Form1.resources
+C:\Users\Jessica\Source\Repos\IT2620-J-Moritz-\Lab03-States\Lab03-States\obj\Debug\Lab03_States.Resources.resources
+C:\Users\Jessica\Source\Repos\IT2620-J-Moritz-\Lab03-States\Lab03-States\obj\Debug\Lab03-States.vbproj.GenerateResource.Cache
+C:\Users\Jessica\Source\Repos\IT2620-J-Moritz-\Lab03-States\Lab03-States\obj\Debug\Lab03-States.exe
+C:\Users\Jessica\Source\Repos\IT2620-J-Moritz-\Lab03-States\Lab03-States\obj\Debug\Lab03-States.xml
+C:\Users\Jessica\Source\Repos\IT2620-J-Moritz-\Lab03-States\Lab03-States\obj\Debug\Lab03-States.pdb
