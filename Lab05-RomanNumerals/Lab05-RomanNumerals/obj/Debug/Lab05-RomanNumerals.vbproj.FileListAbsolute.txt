@@ -1,0 +1,12 @@
+C:\Users\Jessica\AppData\Local\Temporary Projects\Lab05-RomanNumerals\bin\Debug\Lab05-RomanNumerals.exe.config
+C:\Users\Jessica\Source\Repos\IT2620-J-Moritz-\Lab05-RomanNumerals\Lab05-RomanNumerals\bin\Debug\Lab05-RomanNumerals.exe.config
+C:\Users\Jessica\Source\Repos\IT2620-J-Moritz-\Lab05-RomanNumerals\Lab05-RomanNumerals\obj\Debug\Lab05-RomanNumerals.vbprojResolveAssemblyReference.cache
+C:\Users\Jessica\Source\Repos\IT2620-J-Moritz-\Lab05-RomanNumerals\Lab05-RomanNumerals\obj\Debug\Lab05_RomanNumerals.Form1.resources
+C:\Users\Jessica\Source\Repos\IT2620-J-Moritz-\Lab05-RomanNumerals\Lab05-RomanNumerals\obj\Debug\Lab05_RomanNumerals.Resources.resources
+C:\Users\Jessica\Source\Repos\IT2620-J-Moritz-\Lab05-RomanNumerals\Lab05-RomanNumerals\obj\Debug\Lab05-RomanNumerals.vbproj.GenerateResource.Cache
+C:\Users\Jessica\Source\Repos\IT2620-J-Moritz-\Lab05-RomanNumerals\Lab05-RomanNumerals\bin\Debug\Lab05-RomanNumerals.exe
+C:\Users\Jessica\Source\Repos\IT2620-J-Moritz-\Lab05-RomanNumerals\Lab05-RomanNumerals\bin\Debug\Lab05-RomanNumerals.pdb
+C:\Users\Jessica\Source\Repos\IT2620-J-Moritz-\Lab05-RomanNumerals\Lab05-RomanNumerals\bin\Debug\Lab05-RomanNumerals.xml
+C:\Users\Jessica\Source\Repos\IT2620-J-Moritz-\Lab05-RomanNumerals\Lab05-RomanNumerals\obj\Debug\Lab05-RomanNumerals.exe
+C:\Users\Jessica\Source\Repos\IT2620-J-Moritz-\Lab05-RomanNumerals\Lab05-RomanNumerals\obj\Debug\Lab05-RomanNumerals.xml
+C:\Users\Jessica\Source\Repos\IT2620-J-Moritz-\Lab05-RomanNumerals\Lab05-RomanNumerals\obj\Debug\Lab05-RomanNumerals.pdb
