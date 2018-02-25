@@ -1,0 +1,12 @@
+C:\Users\Jessica\AppData\Local\Temporary Projects\Lab05-LargerSmaller\bin\Debug\Lab05-LargerSmaller.exe.config
+C:\Users\Jessica\Source\Repos\IT2620-J-Moritz-\Lab05-LargerSmaller\Lab05-LargerSmaller\bin\Debug\Lab05-LargerSmaller.exe.config
+C:\Users\Jessica\Source\Repos\IT2620-J-Moritz-\Lab05-LargerSmaller\Lab05-LargerSmaller\bin\Debug\Lab05-LargerSmaller.exe
+C:\Users\Jessica\Source\Repos\IT2620-J-Moritz-\Lab05-LargerSmaller\Lab05-LargerSmaller\bin\Debug\Lab05-LargerSmaller.pdb
+C:\Users\Jessica\Source\Repos\IT2620-J-Moritz-\Lab05-LargerSmaller\Lab05-LargerSmaller\bin\Debug\Lab05-LargerSmaller.xml
+C:\Users\Jessica\Source\Repos\IT2620-J-Moritz-\Lab05-LargerSmaller\Lab05-LargerSmaller\obj\Debug\Lab05-LargerSmaller.vbprojResolveAssemblyReference.cache
+C:\Users\Jessica\Source\Repos\IT2620-J-Moritz-\Lab05-LargerSmaller\Lab05-LargerSmaller\obj\Debug\Lab05_LargerSmaller.Form1.resources
+C:\Users\Jessica\Source\Repos\IT2620-J-Moritz-\Lab05-LargerSmaller\Lab05-LargerSmaller\obj\Debug\Lab05_LargerSmaller.Resources.resources
+C:\Users\Jessica\Source\Repos\IT2620-J-Moritz-\Lab05-LargerSmaller\Lab05-LargerSmaller\obj\Debug\Lab05-LargerSmaller.vbproj.GenerateResource.Cache
+C:\Users\Jessica\Source\Repos\IT2620-J-Moritz-\Lab05-LargerSmaller\Lab05-LargerSmaller\obj\Debug\Lab05-LargerSmaller.exe
+C:\Users\Jessica\Source\Repos\IT2620-J-Moritz-\Lab05-LargerSmaller\Lab05-LargerSmaller\obj\Debug\Lab05-LargerSmaller.xml
+C:\Users\Jessica\Source\Repos\IT2620-J-Moritz-\Lab05-LargerSmaller\Lab05-LargerSmaller\obj\Debug\Lab05-LargerSmaller.pdb
