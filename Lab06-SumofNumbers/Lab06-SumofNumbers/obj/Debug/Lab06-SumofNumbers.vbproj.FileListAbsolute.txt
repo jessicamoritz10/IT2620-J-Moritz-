@@ -1,0 +1,11 @@
+C:\Users\Jessica\AppData\Local\Temporary Projects\Lab06-SumofNumbers\bin\Debug\Lab06-SumofNumbers.exe.config
+C:\Users\Jessica\Source\Repos\IT2620-J-Moritz-\Lab06-SumofNumbers\Lab06-SumofNumbers\bin\Debug\Lab06-SumofNumbers.exe.config
+C:\Users\Jessica\Source\Repos\IT2620-J-Moritz-\Lab06-SumofNumbers\Lab06-SumofNumbers\bin\Debug\Lab06-SumofNumbers.exe
+C:\Users\Jessica\Source\Repos\IT2620-J-Moritz-\Lab06-SumofNumbers\Lab06-SumofNumbers\bin\Debug\Lab06-SumofNumbers.pdb
+C:\Users\Jessica\Source\Repos\IT2620-J-Moritz-\Lab06-SumofNumbers\Lab06-SumofNumbers\bin\Debug\Lab06-SumofNumbers.xml
+C:\Users\Jessica\Source\Repos\IT2620-J-Moritz-\Lab06-SumofNumbers\Lab06-SumofNumbers\obj\Debug\Lab06_SumofNumbers.Form1.resources
+C:\Users\Jessica\Source\Repos\IT2620-J-Moritz-\Lab06-SumofNumbers\Lab06-SumofNumbers\obj\Debug\Lab06_SumofNumbers.Resources.resources
+C:\Users\Jessica\Source\Repos\IT2620-J-Moritz-\Lab06-SumofNumbers\Lab06-SumofNumbers\obj\Debug\Lab06-SumofNumbers.vbproj.GenerateResource.Cache
+C:\Users\Jessica\Source\Repos\IT2620-J-Moritz-\Lab06-SumofNumbers\Lab06-SumofNumbers\obj\Debug\Lab06-SumofNumbers.exe
+C:\Users\Jessica\Source\Repos\IT2620-J-Moritz-\Lab06-SumofNumbers\Lab06-SumofNumbers\obj\Debug\Lab06-SumofNumbers.xml
+C:\Users\Jessica\Source\Repos\IT2620-J-Moritz-\Lab06-SumofNumbers\Lab06-SumofNumbers\obj\Debug\Lab06-SumofNumbers.pdb
