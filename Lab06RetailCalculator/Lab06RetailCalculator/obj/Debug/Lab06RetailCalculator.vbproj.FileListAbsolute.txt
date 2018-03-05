@@ -1,0 +1,12 @@
+C:\Users\Jessica\AppData\Local\Temporary Projects\Lab06RetailCalculator\bin\Debug\Lab06RetailCalculator.exe.config
+C:\Users\Jessica\Source\Repos\IT2620-J-Moritz-\Lab06RetailCalculator\Lab06RetailCalculator\bin\Debug\Lab06RetailCalculator.exe.config
+C:\Users\Jessica\Source\Repos\IT2620-J-Moritz-\Lab06RetailCalculator\Lab06RetailCalculator\bin\Debug\Lab06RetailCalculator.exe
+C:\Users\Jessica\Source\Repos\IT2620-J-Moritz-\Lab06RetailCalculator\Lab06RetailCalculator\bin\Debug\Lab06RetailCalculator.pdb
+C:\Users\Jessica\Source\Repos\IT2620-J-Moritz-\Lab06RetailCalculator\Lab06RetailCalculator\bin\Debug\Lab06RetailCalculator.xml
+C:\Users\Jessica\Source\Repos\IT2620-J-Moritz-\Lab06RetailCalculator\Lab06RetailCalculator\obj\Debug\Lab06RetailCalculator.vbprojResolveAssemblyReference.cache
+C:\Users\Jessica\Source\Repos\IT2620-J-Moritz-\Lab06RetailCalculator\Lab06RetailCalculator\obj\Debug\Lab06RetailCalculator.Form1.resources
+C:\Users\Jessica\Source\Repos\IT2620-J-Moritz-\Lab06RetailCalculator\Lab06RetailCalculator\obj\Debug\Lab06RetailCalculator.Resources.resources
+C:\Users\Jessica\Source\Repos\IT2620-J-Moritz-\Lab06RetailCalculator\Lab06RetailCalculator\obj\Debug\Lab06RetailCalculator.vbproj.GenerateResource.Cache
+C:\Users\Jessica\Source\Repos\IT2620-J-Moritz-\Lab06RetailCalculator\Lab06RetailCalculator\obj\Debug\Lab06RetailCalculator.exe
+C:\Users\Jessica\Source\Repos\IT2620-J-Moritz-\Lab06RetailCalculator\Lab06RetailCalculator\obj\Debug\Lab06RetailCalculator.xml
+C:\Users\Jessica\Source\Repos\IT2620-J-Moritz-\Lab06RetailCalculator\Lab06RetailCalculator\obj\Debug\Lab06RetailCalculator.pdb
