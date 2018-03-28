@@ -31,7 +31,7 @@ Partial Class Form1
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.Label9 = New System.Windows.Forms.Label()
-        Me.txtDays = New System.Windows.Forms.TextBox()
+        Me.txtDaysTrip = New System.Windows.Forms.TextBox()
         Me.txtAirfare = New System.Windows.Forms.TextBox()
         Me.txtMeals = New System.Windows.Forms.TextBox()
         Me.txtCar = New System.Windows.Forms.TextBox()
@@ -39,14 +39,20 @@ Partial Class Form1
         Me.txtParking = New System.Windows.Forms.TextBox()
         Me.txtTaxi = New System.Windows.Forms.TextBox()
         Me.txtRegistration = New System.Windows.Forms.TextBox()
-        Me.txtLodging = New System.Windows.Forms.TextBox()
+        Me.txtLodge = New System.Windows.Forms.TextBox()
         Me.btnCalc = New System.Windows.Forms.Button()
-        Me.btnClear = New System.Windows.Forms.Button()
         Me.btnExit = New System.Windows.Forms.Button()
         Me.Label10 = New System.Windows.Forms.Label()
         Me.Label11 = New System.Windows.Forms.Label()
-        Me.txtNights = New System.Windows.Forms.TextBox()
-        Me.lblMessage = New System.Windows.Forms.Label()
+        Me.lblCustomerTotal = New System.Windows.Forms.Label()
+        Me.lblAllowed = New System.Windows.Forms.Label()
+        Me.lblSaved = New System.Windows.Forms.Label()
+        Me.lblOverage = New System.Windows.Forms.Label()
+        Me.Label12 = New System.Windows.Forms.Label()
+        Me.Label13 = New System.Windows.Forms.Label()
+        Me.Label14 = New System.Windows.Forms.Label()
+        Me.Label15 = New System.Windows.Forms.Label()
+        Me.Label16 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Label1
@@ -63,27 +69,27 @@ Partial Class Form1
         Me.Label2.AutoSize = True
         Me.Label2.Location = New System.Drawing.Point(24, 120)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(64, 13)
+        Me.Label2.Size = New System.Drawing.Size(91, 13)
         Me.Label2.TabIndex = 1
-        Me.Label2.Text = "Airfare Cost:"
+        Me.Label2.Text = "Airfare Total Cost:"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(24, 160)
+        Me.Label3.Location = New System.Drawing.Point(24, 164)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(57, 13)
+        Me.Label3.Size = New System.Drawing.Size(98, 13)
         Me.Label3.TabIndex = 2
-        Me.Label3.Text = "Meal Cost:"
+        Me.Label3.Text = "Meal Cost Per Day:"
         '
         'Label4
         '
         Me.Label4.AutoSize = True
         Me.Label4.Location = New System.Drawing.Point(24, 198)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(84, 13)
+        Me.Label4.Size = New System.Drawing.Size(111, 13)
         Me.Label4.TabIndex = 3
-        Me.Label4.Text = "Car Rental Cost:"
+        Me.Label4.Text = "Car Rental Total Cost:"
         '
         'Label5
         '
@@ -99,27 +105,27 @@ Partial Class Form1
         Me.Label6.AutoSize = True
         Me.Label6.Location = New System.Drawing.Point(24, 281)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(72, 13)
+        Me.Label6.Size = New System.Drawing.Size(113, 13)
         Me.Label6.TabIndex = 5
-        Me.Label6.Text = "Parking Fees:"
+        Me.Label6.Text = "Parking Fees Per Day:"
         '
         'Label7
         '
         Me.Label7.AutoSize = True
         Me.Label7.Location = New System.Drawing.Point(24, 318)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(54, 13)
+        Me.Label7.Size = New System.Drawing.Size(97, 13)
         Me.Label7.TabIndex = 6
-        Me.Label7.Text = "Taxi Cost:"
+        Me.Label7.Text = "Taxi Fees Per Day:"
         '
         'Label8
         '
         Me.Label8.AutoSize = True
         Me.Label8.Location = New System.Drawing.Point(24, 355)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(92, 13)
+        Me.Label8.Size = New System.Drawing.Size(119, 13)
         Me.Label8.TabIndex = 7
-        Me.Label8.Text = "Registration Fees:"
+        Me.Label8.Text = "Registration Total Fees:"
         '
         'Label9
         '
@@ -130,30 +136,30 @@ Partial Class Form1
         Me.Label9.TabIndex = 8
         Me.Label9.Text = "Lodging Per Night:"
         '
-        'txtDays
+        'txtDaysTrip
         '
-        Me.txtDays.Location = New System.Drawing.Point(139, 79)
-        Me.txtDays.Name = "txtDays"
-        Me.txtDays.Size = New System.Drawing.Size(100, 20)
-        Me.txtDays.TabIndex = 9
+        Me.txtDaysTrip.Location = New System.Drawing.Point(139, 79)
+        Me.txtDaysTrip.Name = "txtDaysTrip"
+        Me.txtDaysTrip.Size = New System.Drawing.Size(100, 20)
+        Me.txtDaysTrip.TabIndex = 9
         '
         'txtAirfare
         '
-        Me.txtAirfare.Location = New System.Drawing.Point(94, 117)
+        Me.txtAirfare.Location = New System.Drawing.Point(114, 117)
         Me.txtAirfare.Name = "txtAirfare"
         Me.txtAirfare.Size = New System.Drawing.Size(100, 20)
         Me.txtAirfare.TabIndex = 10
         '
         'txtMeals
         '
-        Me.txtMeals.Location = New System.Drawing.Point(87, 157)
+        Me.txtMeals.Location = New System.Drawing.Point(122, 161)
         Me.txtMeals.Name = "txtMeals"
         Me.txtMeals.Size = New System.Drawing.Size(100, 20)
         Me.txtMeals.TabIndex = 11
         '
         'txtCar
         '
-        Me.txtCar.Location = New System.Drawing.Point(114, 195)
+        Me.txtCar.Location = New System.Drawing.Point(139, 195)
         Me.txtCar.Name = "txtCar"
         Me.txtCar.Size = New System.Drawing.Size(100, 20)
         Me.txtCar.TabIndex = 12
@@ -164,58 +170,53 @@ Partial Class Form1
         Me.txtMiles.Name = "txtMiles"
         Me.txtMiles.Size = New System.Drawing.Size(100, 20)
         Me.txtMiles.TabIndex = 13
+        Me.txtMiles.Text = "Enter 0 if N/A"
         '
         'txtParking
         '
-        Me.txtParking.Location = New System.Drawing.Point(102, 278)
+        Me.txtParking.Location = New System.Drawing.Point(139, 278)
         Me.txtParking.Name = "txtParking"
         Me.txtParking.Size = New System.Drawing.Size(100, 20)
         Me.txtParking.TabIndex = 14
         '
         'txtTaxi
         '
-        Me.txtTaxi.Location = New System.Drawing.Point(84, 315)
+        Me.txtTaxi.Location = New System.Drawing.Point(122, 315)
         Me.txtTaxi.Name = "txtTaxi"
         Me.txtTaxi.Size = New System.Drawing.Size(100, 20)
         Me.txtTaxi.TabIndex = 15
         '
         'txtRegistration
         '
-        Me.txtRegistration.Location = New System.Drawing.Point(122, 352)
+        Me.txtRegistration.Location = New System.Drawing.Point(149, 352)
         Me.txtRegistration.Name = "txtRegistration"
         Me.txtRegistration.Size = New System.Drawing.Size(100, 20)
         Me.txtRegistration.TabIndex = 16
         '
-        'txtLodging
+        'txtLodge
         '
-        Me.txtLodging.Location = New System.Drawing.Point(125, 388)
-        Me.txtLodging.Name = "txtLodging"
-        Me.txtLodging.Size = New System.Drawing.Size(100, 20)
-        Me.txtLodging.TabIndex = 17
+        Me.txtLodge.Location = New System.Drawing.Point(125, 388)
+        Me.txtLodge.Name = "txtLodge"
+        Me.txtLodge.Size = New System.Drawing.Size(100, 20)
+        Me.txtLodge.TabIndex = 17
         '
         'btnCalc
         '
-        Me.btnCalc.Location = New System.Drawing.Point(33, 513)
+        Me.btnCalc.Location = New System.Drawing.Point(58, 589)
+        Me.btnCalc.MinimumSize = New System.Drawing.Size(100, 40)
         Me.btnCalc.Name = "btnCalc"
-        Me.btnCalc.Size = New System.Drawing.Size(75, 23)
+        Me.btnCalc.Size = New System.Drawing.Size(100, 40)
         Me.btnCalc.TabIndex = 18
         Me.btnCalc.Text = "Calculate"
         Me.btnCalc.UseVisualStyleBackColor = True
         '
-        'btnClear
-        '
-        Me.btnClear.Location = New System.Drawing.Point(147, 513)
-        Me.btnClear.Name = "btnClear"
-        Me.btnClear.Size = New System.Drawing.Size(75, 23)
-        Me.btnClear.TabIndex = 19
-        Me.btnClear.Text = "Clear"
-        Me.btnClear.UseVisualStyleBackColor = True
-        '
         'btnExit
         '
-        Me.btnExit.Location = New System.Drawing.Point(260, 513)
+        Me.btnExit.Location = New System.Drawing.Point(210, 589)
+        Me.btnExit.MaximumSize = New System.Drawing.Size(100, 40)
+        Me.btnExit.MinimumSize = New System.Drawing.Size(100, 40)
         Me.btnExit.Name = "btnExit"
-        Me.btnExit.Size = New System.Drawing.Size(75, 23)
+        Me.btnExit.Size = New System.Drawing.Size(100, 40)
         Me.btnExit.TabIndex = 20
         Me.btnExit.Text = "Exit"
         Me.btnExit.UseVisualStyleBackColor = True
@@ -235,41 +236,116 @@ Partial Class Form1
         Me.Label11.AutoSize = True
         Me.Label11.Location = New System.Drawing.Point(24, 429)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(79, 13)
+        Me.Label11.Size = New System.Drawing.Size(0, 13)
         Me.Label11.TabIndex = 22
-        Me.Label11.Text = "Nights in Hotel:"
         '
-        'txtNights
+        'lblCustomerTotal
         '
-        Me.txtNights.Location = New System.Drawing.Point(109, 426)
-        Me.txtNights.Name = "txtNights"
-        Me.txtNights.Size = New System.Drawing.Size(100, 20)
-        Me.txtNights.TabIndex = 23
+        Me.lblCustomerTotal.AutoSize = True
+        Me.lblCustomerTotal.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblCustomerTotal.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.lblCustomerTotal.Location = New System.Drawing.Point(95, 429)
+        Me.lblCustomerTotal.MinimumSize = New System.Drawing.Size(160, 20)
+        Me.lblCustomerTotal.Name = "lblCustomerTotal"
+        Me.lblCustomerTotal.Size = New System.Drawing.Size(160, 20)
+        Me.lblCustomerTotal.TabIndex = 24
         '
-        'lblMessage
+        'lblAllowed
         '
-        Me.lblMessage.AutoSize = True
-        Me.lblMessage.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.lblMessage.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.lblMessage.Location = New System.Drawing.Point(35, 473)
-        Me.lblMessage.MinimumSize = New System.Drawing.Size(300, 13)
-        Me.lblMessage.Name = "lblMessage"
-        Me.lblMessage.Size = New System.Drawing.Size(300, 15)
-        Me.lblMessage.TabIndex = 24
+        Me.lblAllowed.AutoSize = True
+        Me.lblAllowed.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblAllowed.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.lblAllowed.Location = New System.Drawing.Point(122, 470)
+        Me.lblAllowed.MinimumSize = New System.Drawing.Size(160, 20)
+        Me.lblAllowed.Name = "lblAllowed"
+        Me.lblAllowed.Size = New System.Drawing.Size(160, 20)
+        Me.lblAllowed.TabIndex = 25
+        '
+        'lblSaved
+        '
+        Me.lblSaved.AutoSize = True
+        Me.lblSaved.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblSaved.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.lblSaved.Location = New System.Drawing.Point(98, 509)
+        Me.lblSaved.MinimumSize = New System.Drawing.Size(160, 20)
+        Me.lblSaved.Name = "lblSaved"
+        Me.lblSaved.Size = New System.Drawing.Size(160, 20)
+        Me.lblSaved.TabIndex = 26
+        '
+        'lblOverage
+        '
+        Me.lblOverage.AutoSize = True
+        Me.lblOverage.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblOverage.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.lblOverage.Location = New System.Drawing.Point(114, 545)
+        Me.lblOverage.MinimumSize = New System.Drawing.Size(160, 20)
+        Me.lblOverage.Name = "lblOverage"
+        Me.lblOverage.Size = New System.Drawing.Size(160, 20)
+        Me.lblOverage.TabIndex = 27
+        '
+        'Label12
+        '
+        Me.Label12.AutoSize = True
+        Me.Label12.Location = New System.Drawing.Point(24, 429)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(65, 13)
+        Me.Label12.TabIndex = 28
+        Me.Label12.Text = "Total Spent:"
+        '
+        'Label13
+        '
+        Me.Label13.AutoSize = True
+        Me.Label13.Location = New System.Drawing.Point(36, 509)
+        Me.Label13.Name = "Label13"
+        Me.Label13.Size = New System.Drawing.Size(0, 13)
+        Me.Label13.TabIndex = 29
+        '
+        'Label14
+        '
+        Me.Label14.AutoSize = True
+        Me.Label14.Location = New System.Drawing.Point(24, 509)
+        Me.Label14.Name = "Label14"
+        Me.Label14.Size = New System.Drawing.Size(68, 13)
+        Me.Label14.TabIndex = 30
+        Me.Label14.Text = "Total Saved:"
+        '
+        'Label15
+        '
+        Me.Label15.AutoSize = True
+        Me.Label15.Location = New System.Drawing.Point(24, 545)
+        Me.Label15.Name = "Label15"
+        Me.Label15.Size = New System.Drawing.Size(87, 13)
+        Me.Label15.TabIndex = 31
+        Me.Label15.Text = "Total Unallowed:"
+        '
+        'Label16
+        '
+        Me.Label16.AutoSize = True
+        Me.Label16.Location = New System.Drawing.Point(24, 470)
+        Me.Label16.Name = "Label16"
+        Me.Label16.Size = New System.Drawing.Size(93, 13)
+        Me.Label16.TabIndex = 32
+        Me.Label16.Text = "Total Reimbursed:"
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(372, 548)
-        Me.Controls.Add(Me.lblMessage)
-        Me.Controls.Add(Me.txtNights)
+        Me.ClientSize = New System.Drawing.Size(372, 641)
+        Me.Controls.Add(Me.Label16)
+        Me.Controls.Add(Me.Label15)
+        Me.Controls.Add(Me.Label14)
+        Me.Controls.Add(Me.Label13)
+        Me.Controls.Add(Me.Label12)
+        Me.Controls.Add(Me.lblOverage)
+        Me.Controls.Add(Me.lblSaved)
+        Me.Controls.Add(Me.lblAllowed)
+        Me.Controls.Add(Me.lblCustomerTotal)
         Me.Controls.Add(Me.Label11)
         Me.Controls.Add(Me.Label10)
         Me.Controls.Add(Me.btnExit)
-        Me.Controls.Add(Me.btnClear)
         Me.Controls.Add(Me.btnCalc)
-        Me.Controls.Add(Me.txtLodging)
+        Me.Controls.Add(Me.txtLodge)
         Me.Controls.Add(Me.txtRegistration)
         Me.Controls.Add(Me.txtTaxi)
         Me.Controls.Add(Me.txtParking)
@@ -277,7 +353,7 @@ Partial Class Form1
         Me.Controls.Add(Me.txtCar)
         Me.Controls.Add(Me.txtMeals)
         Me.Controls.Add(Me.txtAirfare)
-        Me.Controls.Add(Me.txtDays)
+        Me.Controls.Add(Me.txtDaysTrip)
         Me.Controls.Add(Me.Label9)
         Me.Controls.Add(Me.Label8)
         Me.Controls.Add(Me.Label7)
@@ -303,7 +379,7 @@ Partial Class Form1
     Friend WithEvents Label7 As Label
     Friend WithEvents Label8 As Label
     Friend WithEvents Label9 As Label
-    Friend WithEvents txtDays As TextBox
+    Friend WithEvents txtDaysTrip As TextBox
     Friend WithEvents txtAirfare As TextBox
     Friend WithEvents txtMeals As TextBox
     Friend WithEvents txtCar As TextBox
@@ -311,12 +387,18 @@ Partial Class Form1
     Friend WithEvents txtParking As TextBox
     Friend WithEvents txtTaxi As TextBox
     Friend WithEvents txtRegistration As TextBox
-    Friend WithEvents txtLodging As TextBox
+    Friend WithEvents txtLodge As TextBox
     Friend WithEvents btnCalc As Button
-    Friend WithEvents btnClear As Button
     Friend WithEvents btnExit As Button
     Friend WithEvents Label10 As Label
     Friend WithEvents Label11 As Label
-    Friend WithEvents txtNights As TextBox
-    Friend WithEvents lblMessage As Label
+    Friend WithEvents lblCustomerTotal As Label
+    Friend WithEvents lblAllowed As Label
+    Friend WithEvents lblSaved As Label
+    Friend WithEvents lblOverage As Label
+    Friend WithEvents Label12 As Label
+    Friend WithEvents Label13 As Label
+    Friend WithEvents Label14 As Label
+    Friend WithEvents Label15 As Label
+    Friend WithEvents Label16 As Label
 End Class
