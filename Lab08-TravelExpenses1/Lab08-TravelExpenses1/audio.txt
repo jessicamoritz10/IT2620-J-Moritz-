@@ -1,0 +1,70 @@
+Public Class AudioBooks
+
+    Private Sub btnClose_Click(sender As Object, e As EventArgs) Handles btnClose.Click
+        ' Close the form
+        Me.Close()
+    End Sub
+
+    Private Sub btnAddAudio_Click(sender As Object, e As EventArgs) Handles btnAddAudio.Click
+        'Declare Variables and Constants
+        Dim dblSubtotal1 As Double
+		Dim dblSubtotal2 As Double
+		Dim dblSubtotal3 As Double
+		Dim dblSubtotal4 As Double
+        Dim dblTax1 As Double
+		Dim dblTax2 As Double
+		Dim dblTax3 As Double
+		Dim dblTax4 As Double
+        Dim dblShipping1 As Double
+		Dim dblShipping2 As Double
+		Dim dblShipping3 As Double
+		Dim dblShipping4 As Double
+        Dim dblTotal1 As Double
+		Dim dblTotal2 As Double
+		Dim dblTotal3 As Double
+		Dim dblTotal4 As Double
+		Dim dblTotalSubtotal As Double
+		Dim dblTotalSale As Double
+		Dim dblTotalTax As Double
+		Dim dblTotalShipping As Double
+        Const dblTAXRATE As Double = 0.6D
+        Const dblSHIPPINGRATE As Double = 2D
+		
+
+        If lstAudio.SelectedIndex = 0 Then
+            dblSubtotal1 = CDbl(29.95)
+            dblTax1 = CDec(29.95 * dblTAXRATE)
+            dblShipping1 = DBLSHIPPINGRATE * 1
+            dblTotal1 = dblSubtotal + dblTax + dblShipping
+        ElseIf lstAudio.SelectedIndex = 1 Then
+            decSubtotal2 = CDbl(14.5)
+            dblTax2 = CDec(14.5 * dblTAXRATE)
+            dblShipping2 = DBLSHIPPINGRATE * 1
+            dblTotal2 = dblSubtotal + dblTax + dblShipping
+        ElseIf lstAudio.SelectedIndex = 2 Then
+            decSubtotal3 = CDbl(12.95)
+            dblTax3 = CDec(12.95 * dblTAXRATE)
+            dblShipping3 = DBLSHIPPINGRATE * 1
+            dblTotal3 = dblSubtotal + dblTax + dblShipping
+        ElseIf lstAudio.SelectedIndex = 3 Then
+            decSubtotal4 = CDec(11.5)
+            dblTax4 = CDec(11.5 * dblTAXRATE)
+            dblShipping4 = DBLSHIPPINGRATE * 1
+            dblTotal4 = dblSubtotal + dblTax + dblShipping
+        End If
+		
+		dblTotalSubtotal = AudioBooks.dblSubtotal1 + AudioBooks.dblSubtotal2 + AudioBooks.dblSubtotal3 + AudioBooks.dblSubtotal4 + PrintBooks.dblTotal1 + PrintBooks.dblTotal2 + PrintBooks.dblTotal3 + PrintBooks.dblTotal4
+		
+		dblTotalSale = AudioBooks.dblTotal1 + AudioBooks.dblTotal2 + AudioBooks.dblTotal3 + AudioBooks.dblTotal4 + PrintBooks.dblTotal1 + PrintBooks.dblTotal2 + PrintBooks.dblTotal3 + PrintBooks.dblTotal4
+		
+		dblTotalTax = AudioBooks.dblTax1 + AudioBooks.dblTax2 + AudioBooks.dblTax3 + AudioBooks.dblTax4 + PrintBooks.dblTax1 + PrintBooks.dblTax2 + PrintBooks.dblTax3 + PrintBooks.dblTax4
+		
+		dblTotalShipping = AudioBooks.dblShipping1 + AudioBooks.dblShipping2 + AudioBooks.dblShipping3 + AudioBooks.dblShipping4 + PrintBooks.dblShipping1 + PrintBooks.dblShipping2 + PrintBooks.dblShipping3 + PrintBooks.dblShipping4
+
+        ' Show total due
+		lblSubtotal.Text = dblTotalSubtotal.ToString("c")
+		lblTax.Text = dblTotalTax.ToString("c")
+        lblShipping.Text = dblTotalShipping.ToString("c")
+        lblTotal.Text = dblTotalSale.ToString("c")
+    End Sub
+End Class
