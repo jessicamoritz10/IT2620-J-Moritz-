@@ -13,6 +13,7 @@ Public Class Form1
         txtFile = File.AppendText(fileName)
 
         Try
+
             txtFile.WriteLine(txtFirstName.Text)
             txtFile.WriteLine(txtMiddleName.Text)
             txtFile.WriteLine(txtLastName.Text)
@@ -23,10 +24,19 @@ Public Class Form1
             txtFile.WriteLine(txtEmail.Text)
 txtFile:    Close()
 
+            MessageBox.Show("Record was saved to file")
+
         Catch ex As Exception
             MessageBox.Show(ex.ToString())
 
         End Try
+
+
+
+        MessageBox.Show("Record was saved to file")
+
+
+
     End Sub
 
     Private Sub btnClear_Click(sender As Object, e As EventArgs) Handles btnClear.Click
