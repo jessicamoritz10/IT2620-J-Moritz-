@@ -1,6 +1,6 @@
 Public Class Form1
 
-    Private Sub mnuFileExit_Click(sender As Object, e As EventArgs)
+    Private Sub ExitToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ExitToolStripMenuItem.Click
         ' Close the form.
         Me.Close()
     End Sub
