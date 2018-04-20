@@ -188,13 +188,13 @@ Partial Class Form1
         'PrintBooksToolStripMenuItem
         '
         Me.PrintBooksToolStripMenuItem.Name = "PrintBooksToolStripMenuItem"
-        Me.PrintBooksToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.PrintBooksToolStripMenuItem.Size = New System.Drawing.Size(141, 22)
         Me.PrintBooksToolStripMenuItem.Text = "Print Books"
         '
         'AudioBooksToolStripMenuItem
         '
         Me.AudioBooksToolStripMenuItem.Name = "AudioBooksToolStripMenuItem"
-        Me.AudioBooksToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.AudioBooksToolStripMenuItem.Size = New System.Drawing.Size(141, 22)
         Me.AudioBooksToolStripMenuItem.Text = "Audio Books"
         '
         'HelpToolStripMenuItem
@@ -207,7 +207,7 @@ Partial Class Form1
         'AboutToolStripMenuItem
         '
         Me.AboutToolStripMenuItem.Name = "AboutToolStripMenuItem"
-        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(107, 22)
+        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.AboutToolStripMenuItem.Text = "About"
         '
         'Form1
